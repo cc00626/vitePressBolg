@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: npm install # 使用 npm 安装依赖
       - name: Build with VitePress
-        run: npm run build # 使用 npm 运行构建
+        run: npm run docs:build # 使用 npm 运行构建
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
