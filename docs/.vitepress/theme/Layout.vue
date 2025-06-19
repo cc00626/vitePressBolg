@@ -4,9 +4,9 @@
     <template #doc-footer-before> </template>
     <template #doc-after>
       <div style="margin-top: 24px">
-        <Giscus :key="page.filePath" repo-id="R_kgDOO-SQ8Q" category="General" category-id="DIC_kwDOO-SQ8c4CrsuS"
-          mapping="pathname" strict="0" reactions-enabled="1" emit-metadata="0" input-position="bottom" lang="zh-CN"
-          crossorigin="anonymous" :theme="isDark ? 'dark' : 'light'" />
+        <Giscus :key="page.filePath" repo="cc00626/vitePressBolg" repo-id="R_kgDOO-SQ8Q" category="General"
+          category-id="DIC_kwDOO-SQ8c4CrsuS" mapping="pathname" strict="0" reactions-enabled="1" emit-metadata="1"
+          input-position="top" lang="zh-CN" loading="lazy" crossorigin="anonymous" :theme="isDark ? 'dark' : 'light'" />
       </div>
     </template>
   </Layout>
